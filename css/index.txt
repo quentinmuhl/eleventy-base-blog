@@ -11,133 +11,13 @@
 * {
   box-sizing: border-box;
 }
-html {
-background: #151515;
-}
+html,
 body {
-  background: #151515;
-    color: #fff;
-    font-family: neue-haas-grotesk-display, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin: 0 auto;
-    max-width: 1200px;
-}
-#header {
-  text-align: center;
-  font-family: neue-haas-grotesk-display, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 15px;
-}
-
-#header a {
-  text-align: center;
-  color: white;
-  font-family: neue-haas-grotesk-display, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 13px;
-  margin-top: 20px;
-  margin-right: 20px;
-  text-transform: uppercase;
-}
-
-#header a:hover {
-  text-align: center;
-  color: gray;
-  font-family: neue-haas-grotesk-display, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 13px;
-  margin-top: 20px;
-  margin-right: 20px;
-  text-transform: uppercase;
-}
-
-#header img {
-  width: 6%;
-  margin: 1.3em;
-  align-content: center;
-}
-
-#footer {
-  text-align: center;
-}
-
-#footer img {
-  width: 3%;
-  margin: 1.3em;
-}
-
-#footer img:hover {
-  width: 3.5%;
-  margin: 1.3em;
-}
-
-h1  {
-  color: transparent;
-  font-family: neue-haas-grotesk-text,sans-serif;
-  font-weight: 700;
-  font-style: bold;
-  font-size: 108px;
-  line-height: 80px;
-  -webkit-text-stroke: 1px white;
-  margin-top: 20px;
-  margin-right: 20px;
-  
-}
-
-h2 {
-  color: #fff;
-  font-family: neue-haas-grotesk-display, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 20px;
-  line-height: 10px;
-  margin-top: 80px;
-}
-
-h3 {
-  font-family: neue-haas-grotesk-display, sans-serif;
-  color: white;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 35px;
-  margin-top: 20px;
-}
-
-
-h4, h5, h6 {
-  font-family: neue-haas-grotesk-display, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 10px;
-}
-
-#project {
-  text-align: center;
-}
-
-
-#project img {
-  width: 80%;
-  margin: 1.3em;
-  opacity: 100%;
-}
-
-#project img:hover {
-  width: 75%;
-  transition: 0.3s;
-  opacity: 85%;
-}
-
-#about {
-  display: flex;
-}
-
-#contact {
-  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: var(--darkgray);
+  background-color: var(--white);
 }
 p:last-child {
   margin-bottom: 0;
